@@ -45,9 +45,12 @@ texts.attrMap ((head,prev, i) =>
      y: i === 0? 250 : prev.y + ((i*10)),
 })).map( t => t.text('text-{i}'))
 ```
-In attrMap method, first element' attributes (head),
+In attrMap method, first element' attributes (head), <br />
 previous element' attibutes (prev) and the current index of the element are passed as parameter
 ```javascript
 texts[4] .attr({ fill:'green' })
 ```
 attr method is also possible to use for a single element from the list.
+
+[Check how the code above renders the text list](https://pikpokjeon.github.io/SSH/)
+
